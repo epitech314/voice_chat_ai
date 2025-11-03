@@ -839,6 +839,6 @@ This project is licensed under the MIT License.
  <picture>
    <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/svg?repos=epitech314/voice-chat-ai&type=Date&theme=dark" />
    <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/svg?repos=epitech314/voice-chat-ai&type=Date" />
-   <img alt="Star History Chart" src="https://api.star-history.com/svg?repos=epitech314/voice-chat-ai&type=Date" />
+   <img alt="Star History Chart" src="https://www.star-history.com/#epitech314/voice_chat_ai&type=date&legend=top-left" />
  </picture>
 </a>
