@@ -21,8 +21,17 @@ RUN apt-get update && apt-get install -y \
     dbus \
     && rm -rf /var/lib/apt/lists/*
 
-# Install ffmpeg
-RUN apt-get update && apt-get install -y ffmpeg && rm -rf /var/lib/apt/lists/*
+# Install ffmpeg and required dev libs ✅ (added this block)
+RUN apt-get update && apt-get install -y \
+    ffmpeg \
+    libavdevice-dev \
+    libavfilter-dev \
+    libavformat-dev \
+    libavcodec-dev \
+    libswscale-dev \
+    libswresample-dev \
+    libavutil-dev \
+    && rm -rf /var/lib/apt/lists/*
 
 # Configure dbus
 RUN dbus-uuidgen > /etc/machine-id
