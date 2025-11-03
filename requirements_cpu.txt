@@ -31,6 +31,6 @@ coqui-tts==0.26.0
 
 # WebRTC-specific dependencies
 aiortc==1.10.1
-av==11.0.0
+av>=11.0.0
 httpx==0.28.1 
 websockets==15.0.1
